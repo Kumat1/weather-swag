@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 
-public class Hello extends JDialog {
+public class Hello extends JDialog { //class Hello untuk menampilkan Jframe dialog
     //String kota;
     static String codeNegara = "id", kota = "Medan";
     private static String url;
@@ -57,7 +57,7 @@ public class Hello extends JDialog {
        System.exit(0);
     }
 
-    private void onOK() {
+    private void onOK() {//menampilkan cuaca kota
          //add your code here
         //dispose();
         kota = textField1.getText().toString();
